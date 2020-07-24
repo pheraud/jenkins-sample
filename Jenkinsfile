@@ -9,7 +9,7 @@ node () {
 	}
 	stage ('App-IC - Quality Analysis') {	
 	withSonarQubeEnv('Sonar') { 
- 		bat "mvn sonar:sonar" 
+ 		bat 'mvn sonar:sonar' 
 	}
 	stage ('App-IC - Build') {
  			// Maven build step
