@@ -15,4 +15,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <properties>
+    <sonar.projectKey>pheraud_jenkins-sample</sonar.projectKey>
+    <sonar.organization>pheraud</sonar.organization>
+</properties>
 </project>
